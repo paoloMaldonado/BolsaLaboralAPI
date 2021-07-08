@@ -26,6 +26,10 @@ namespace BolsaLaboralWeb.Domain.Infrastructure.Mappings
 
             CreateMap<CategoriaEmpleo, CategoriaEmpleoDTO>();
 
+            CreateMap<Empresa, EmpresaDTO>();
+            CreateMap<EmpresaDTO, Empresa>();
+            CreateMap<EmpresaPostDTO, Empresa>();
+
         }
 
     }
