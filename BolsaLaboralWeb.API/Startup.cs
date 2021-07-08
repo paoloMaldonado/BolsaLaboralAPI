@@ -41,6 +41,8 @@ namespace BolsaLaboralWeb.API
                 x.UseSqlServer(Configuration.GetConnectionString("DevConnection")));
 
             services.AddTransient<IPostulanteRepository, PostulanteRepository>();
+            services.AddTransient<IDepartamentoRepository, DepartamentoRepository>();
+            services.AddTransient<IProvinciaRepository, ProvinciaRepository>();
             // TODO: Agregar nuevas interfaces
 
 

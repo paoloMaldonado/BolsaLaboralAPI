@@ -18,6 +18,11 @@ namespace BolsaLaboralWeb.Domain.Infrastructure.Mappings
 
             CreateMap<PostulantePostDTO, Postulante>();
 
+
+            CreateMap<Departamento, DepartamentoDTO>();
+
+            CreateMap<Provincia, ProvinciaDTO>();
+
         }
 
     }

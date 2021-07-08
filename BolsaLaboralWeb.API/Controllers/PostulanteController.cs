@@ -38,7 +38,7 @@ namespace BolsaLaboralWeb.API.Controllers
 
         [HttpGet]
         [Route("GetPostulanteById/{id}")]
-        public async Task<IActionResult> GetCustomerById(int id)
+        public async Task<IActionResult> GetPostulanteById(int id)
         {
             var postulante = await _postulanteRepository.GetPostulanteById(id);
             if (postulante == null)
