@@ -23,6 +23,9 @@ namespace BolsaLaboralWeb.Domain.Infrastructure.Mappings
 
             CreateMap<Provincia, ProvinciaDTO>();
 
+
+            CreateMap<CategoriaEmpleo, CategoriaEmpleoDTO>();
+
         }
 
     }
