@@ -48,6 +48,10 @@ namespace BolsaLaboralWeb.API
             services.AddTransient<INivelExperienciaRepository, NivelExperienciaRepository>();
             services.AddTransient<IOfertaLaboralRepository, OfertaLaboralRepository>();
             services.AddTransient<IPostularOfertaRepository, PostularOfertaRepository>();
+            services.AddTransient<IEspecialidadRepository, EspecialidadRepository>();
+            services.AddTransient<IHojaVidaCvRepository, HojaVidaCvRepository>();
+            services.AddTransient<ISectorRepository, SectorRepository>();
+            services.AddTransient<IUbigeoRepository, UbigeoRepository>();
             // TODO: Agregar nuevas interfaces
 
 
