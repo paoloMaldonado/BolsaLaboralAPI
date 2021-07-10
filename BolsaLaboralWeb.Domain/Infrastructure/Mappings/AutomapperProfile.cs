@@ -30,6 +30,16 @@ namespace BolsaLaboralWeb.Domain.Infrastructure.Mappings
             CreateMap<EmpresaDTO, Empresa>();
             CreateMap<EmpresaPostDTO, Empresa>();
 
+            CreateMap<NivelExperiencia, NivelExperienciaDTO>();
+
+            CreateMap<OfertaLaboral, OfertaLaboralDTO>();
+            CreateMap<OfertaLaboralDTO, OfertaLaboral>();
+            CreateMap<OfertaLaboralPostDTO, OfertaLaboral>();
+
+            CreateMap<PostularOferta, PostularOfertaDTO>();
+            CreateMap<PostularOfertaDTO, PostularOferta>();
+            CreateMap<PostularOfertaPostDTO, PostularOferta>();
+
         }
 
     }
